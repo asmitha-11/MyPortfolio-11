@@ -1,0 +1,20 @@
+{
+  "name": "asmitha-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Developer Portfolio for Asmitha, First-Year MCA Student at PIM Udupi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "mca",
+    "developer",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Asmitha",
+  "license": "MIT"
+}

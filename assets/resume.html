@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Asmitha | First-Year MCA Student</title>
+  <link rel="icon" type="image/jpeg" href="profile.jpg">
+  <style>
+    :root {
+      --text: #111827;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+      --bg: #ffffff;
+      --accent: #111827;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background-color: #f9fafb;
+      line-height: 1.5;
+      padding: 2rem 1rem;
+    }
+    .resume-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 3rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+    .action-bar {
+      max-width: 800px;
+      margin: 0 auto 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid var(--text);
+      background: var(--text);
+      color: #fff;
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--text);
+      border-color: var(--border);
+    }
+    .header {
+      border-bottom: 2px solid var(--text);
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .name {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .headline {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      margin-top: 0.75rem;
+      font-size: 0.875rem;
+      color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .contact-info a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .section {
+      margin-bottom: 1.75rem;
+    }
+    .section-title {
+      font-size: 0.875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+      margin-bottom: 0.875rem;
+      color: var(--text);
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 700;
+      font-size: 0.9375rem;
+    }
+    .item-sub {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+    .item-date {
+      font-size: 0.8125rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    p, li {
+      font-size: 0.875rem;
+      color: #374151;
+      line-height: 1.6;
+    }
+    ul {
+      padding-left: 1.25rem;
+      margin-top: 0.5rem;
+    }
+    li {
+      margin-bottom: 0.25rem;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+    }
+    @media print {
+      body {
+        background: #fff;
+        padding: 0;
+      }
+      .action-bar {
+        display: none !important;
+      }
+      .resume-wrapper {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="action-bar">
+    <a href="../index.html" class="btn btn-outline">&larr; Back to Portfolio</a>
+    <button onclick="window.print()" class="btn">Print / Save as PDF</button>
+  </div>
+
+  <main class="resume-wrapper">
+    <header class="header">
+      <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 0.75rem;">
+        <img src="profile.jpg" alt="Asmitha" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; object-position: top center; border: 2px solid var(--text); flex-shrink: 0;">
+        <div>
+          <h1 class="name" style="margin: 0; line-height: 1.1;">Asmitha</h1>
+          <p class="headline" style="margin: 0.25rem 0 0;">First-Year MCA Student | Aspiring Software Developer | AI & ML Enthusiast</p>
+        </div>
+      </div>
+      <div class="contact-info">
+        <span>Udupi, Karnataka</span>
+        <span><a href="mailto:asmithanaik99@gmail.com">asmithanaik99@gmail.com</a></span>
+        <span><a href="tel:8147799596">+91 8147799596</a></span>
+        <span><a href="https://www.linkedin.com/in/asmitha-naik" target="_blank">linkedin.com/in/asmitha-naik</a></span>
+        <span><a href="https://github.com/asmitha-11" target="_blank">github.com/asmitha-11</a></span>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2 class="section-title">Objective & Profile</h2>
+      <p>
+        Motivated and dedicated first-year Master of Computer Applications (MCA) student at Poornaprajna Institute of Management (PIM), Udupi. Possesses verified foundational expertise in core programming languages (C, C++, Python, Java, PHP), web technologies, and relational databases. Demonstrated project experience in developing complete web application solutions (Smart Attendance System with QR scanner). Passionate about continuous learning, structured problem solving, and actively seeking an entry-level software development or web engineering internship.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Academic Education</h2>
+      <div class="item-header">
+        <span>Master of Computer Applications (MCA)</span>
+        <span class="item-date">2026 – 2028 (Pursuing)</span>
+      </div>
+      <div class="item-sub">
+        Poornaprajna Institute of Management (PIM) — Udupi, Karnataka
+      </div>
+      <p style="margin-top: 0.35rem; font-size: 0.8125rem; color: var(--muted);">
+        Specialization: Computer Applications & Software Development &bull; <strong>CGPA: 7.9 / 10.0</strong>
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Technical Skills & Verified Proficiency</h2>
+      <div class="skills-grid">
+        <p><strong>Core Programming Languages (Basic):</strong> C, C++, Python, Java, PHP, R, JavaScript</p>
+        <p><strong>Web Development Fundamentals:</strong> HTML5, CSS3, Responsive Design</p>
+        <p><strong>Query & Database Systems:</strong> SQL, MySQL, SQLite</p>
+        <p><strong>Data Science & AI:</strong> NumPy, Pandas</p>
+        <p><strong>Development Tools & Deployment:</strong> GitHub, Visual Studio Code, Google Antigravity, Vercel</p>
+        <p><strong>Core Computer Science:</strong> Data Structures and Algorithms, Object-Oriented Programming (OOP), Software Testing & Debugging</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Projects & Technical Artifacts</h2>
+      <div>
+        <div class="item-header">
+          <span>Smart Attendance System</span>
+          <span class="item-date">Completed</span>
+        </div>
+        <div class="item-sub" style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 0.8125rem;">
+          PHP, MySQL, HTML5, CSS3, JavaScript, SQL, QR Code API
+        </div>
+        <ul>
+          <li>Developed a web-based portal to digitize manual student record keeping and attendance tracking for educational institutions.</li>
+          <li>Constructed intuitive interfaces using HTML, CSS, and JavaScript with server-side logic powered by PHP.</li>
+          <li>Engineered role-specific modules for Administrators, Faculty (class attendance marking), and Students (attendance review).</li>
+          <li>Integrated a contactless QR code scanning module for automated library attendance logging.</li>
+          <li>Source Repository: <a href="https://github.com/asmitha-11" target="_blank" style="color: inherit; text-decoration: underline;">https://github.com/asmitha-11</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Personal Details & Extracurriculars</h2>
+      <p><strong>Spoken Languages:</strong> English (Professional Working Proficiency), Kannada (Native / Fluent)</p>
+      <p><strong>Hobbies & Creative Interests:</strong> Painting, Drawing, Dancing</p>
+    </section>
+  </main>
+
+</body>
+</html>
