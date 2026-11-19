@@ -25,8 +25,7 @@ A minimal, professional, and accessible personal developer portfolio built for *
 ```text
 myportfolio/
 ├── index.html            # Main semantic HTML5 portfolio webpage
-├── css/
-│   └── style.css         # Responsive styling & Black/White design tokens
+├── style.css             # Responsive styling & Black/White design tokens
 ├── js/
 │   └── main.js           # Theme toggle, mobile drawer, filters & interactive logic
 ├── assets/
